@@ -7,7 +7,7 @@ function raf(time) {
 
 requestAnimationFrame(raf)
 
-gsap.set(".canv", { scale: 0.5 });
+gsap.set(".canv", { scale: 0 });
 
 gsap.to(".canv", {
     scale: 1,
